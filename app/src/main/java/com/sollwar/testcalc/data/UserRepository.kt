@@ -15,7 +15,9 @@ class UserRepository private constructor(context: Context){
         context,
         UserDatabase::class.java,
         DATABASE_NAME
-    ).fallbackToDestructiveMigration().build()
+    ).createFromAsset("start_database.db")
+        .fallbackToDestructiveMigration()
+        .build()
 
     private val dao = database.userDao()
 

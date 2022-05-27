@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestCalc</string>
+    <string name="prompt_username">Имя пользователя</string>
+    <string name="login_failed">Неверный логин или пароль</string>
+    <string name="welcome">Добро пожаловать!\n%1$s</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="result">Результат</string>
+    <string name="first_argument">Первый аргумент</string>
+    <string name="second_argument">Второй аргумент</string>
+    <string name="invalid_arguments">Введите оба аргумента</string>
+</resources>
